@@ -1,0 +1,33 @@
+Connecting to WiFi..
+Connecting to WiFi..
+Connecting to WiFi..
+Connecting to WiFi..
+Connecting to WiFi..
+Connecting to WiFi..
+Connecting to WiFi..
+Connecting to WiFi..
+Connecting to WiFi..
+Connected to the WiFi network
+esp8266-client-48:3F:DA:53:C5:A4
+Connecting to public emqx mqtt broker.....
+My emqx mqtt broker connected
+alive0
+alive1
+alive2
+alive3
+alive4
+Message arrived in topic: esp/test
+Message:{
+  "msg": "hi"
+}
+-----------------------
+alive5
+alive6
+alive7
+alive8
+alive9
+alive10
+alive11
+alive12
+alive13
+alive14

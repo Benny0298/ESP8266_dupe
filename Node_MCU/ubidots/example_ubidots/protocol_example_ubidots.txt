@@ -1,0 +1,15 @@
+..WiFi connected
+IP address: 
+192.168.43.243
+entra
+Attempting MQTT connection...connected
+Message published [/v1.6/devices/my-new-device/board2web/lv] 0
+Message published [/v1.6/devices/my-new-device/board2web/lv] 1
+Message published [/v1.6/devices/my-new-device/board2web/lv] 2
+Message arrived [/v1.6/devices/my-new-device/esp8266_led_switch/lv] 0.0
+Message published [/v1.6/devices/my-new-device/board2web/lv] 3
+Message published [/v1.6/devices/my-new-device/board2web/lv] 4
+Message arrived [/v1.6/devices/my-new-device/web2board/lv] 77.0
+Message published [/v1.6/devices/my-new-device/board2web/lv] 5
+Message arrived [/v1.6/devices/my-new-device/esp8266_led_switch/lv] 1.0
+Message published [/v1.6/devices/my-new-device/board2web/lv] 6

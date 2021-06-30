@@ -1,0 +1,22 @@
+.......
+WiFi connected
+IP address: 
+192.168.43.243
+Connecting to MQTT... MQTT Connected!
+Sending randnum val 1...OK!
+Sending Text: board2web0...OK
+Received LED: ON
+Received LED: OFF
+Received LED: ON
+Received Text: test
+Sending randnum val 6...OK!
+Sending Text: board2web1...OK
+Received Text: hello
+Received LED: OFF
+Received LED: ON
+Sending randnum val 3...OK!
+Sending Text: board2web2...OK
+Sending randnum val 8...OK!
+Sending Text: board2web3...OK
+Sending randnum val 8...OK!
+Sending Text: board2web4...OK

@@ -1,0 +1,64 @@
+# Copyright (c) Microsoft. All rights reserved.
+# Licensed under the MIT license. See LICENSE file in the project root for full license information.
+
+[thingdev_remote_monitoring]
+Target=remote_monitoring.ino
+SourcePath=!kits_root!\iot-hub-c-thingdev-getstartedkit\remote_monitoring
+RelativeWorkingDir=\thingdev_remote_monitoring
+CloneURL=https://github.com/Azure-Samples/iot-hub-c-thingdev-getstartedkit.git
+MaxAllowedDurationSeconds=100
+LogLines=300
+MinimumHeap=7000
+Categories=IoTHub
+Hardware=SparkFun_ESP8266_Thing 
+SerialPort=COM6
+CPUParameters=-fqbn=esp8266:esp8266:thingdev:CpuFrequency=80,FlashSize=512K0,LwIPVariant=v2mss536,Debug=Disabled,DebugLevel=None____,UploadSpeed=115200 -ide-version=10805
+Build=Enable
+Execution=Enable
+
+[thingdev_command_center]
+Target=command_center.ino
+SourcePath=!kits_root!\iot-hub-c-thingdev-getstartedkit\command_center
+RelativeWorkingDir=\thingdev_command_center
+CloneURL=https://github.com/Azure-Samples/iot-hub-c-thingdev-getstartedkit.git
+MaxAllowedDurationSeconds=100
+LogLines=300
+MinimumHeap=7000
+Categories=IoTHub
+Hardware=SparkFun_ESP8266_Thing 
+SerialPort=COM6
+CPUParameters=-fqbn=esp8266:esp8266:thingdev:CpuFrequency=80,FlashSize=512K0,LwIPVariant=v2mss536,Debug=Disabled,DebugLevel=None____,UploadSpeed=115200 -ide-version=10805
+Build=Enable
+Execution=Disable
+
+[thingdev_simplesample_http]
+Target=simplesample_http.ino
+SourcePath=!kits_root!\iot-hub-c-thingdev-getstartedkit\simplesample_http
+RelativeWorkingDir=\thingdev_simplesample_http
+CloneURL=""
+MaxAllowedDurationSeconds=100
+LogLines=300
+MinimumHeap=7000
+Categories=IoTHub
+Hardware=SparkFun_ESP8266_Thing
+SerialPort=COM6
+CPUParameters=-fqbn=esp8266:esp8266:thingdev:CpuFrequency=80,FlashSize=512K0,LwIPVariant=v2mss536,Debug=Disabled,DebugLevel=None____,UploadSpeed=115200 -ide-version=10805
+Build=Enable
+Execution=Disable
+
+[thingdev_simplesample_mqtt]
+Target=simplesample_mqtt.ino
+SourcePath=!kits_root!\iot-hub-c-thingdev-getstartedkit\simplesample_mqtt
+RelativeWorkingDir=\thingdev_simplesample_mqtt
+CloneURL=""
+MaxAllowedDurationSeconds=100
+LogLines=300
+MinimumHeap=7000
+Categories=IoTHub
+Hardware=SparkFun_ESP8266_Thing
+SerialPort=COM6
+CPUParameters=-fqbn=esp8266:esp8266:thingdev:CpuFrequency=80,FlashSize=512K0,LwIPVariant=v2mss536,Debug=Disabled,DebugLevel=None____,UploadSpeed=115200 -ide-version=10805
+Build=Enable
+Execution=Disable
+
+[End]
